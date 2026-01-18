@@ -1,0 +1,6 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display:
+    "Iosevka", "Maple Mono", Cascadia Code, Menlo, Monaco, Ubuntu Mono;
+}
