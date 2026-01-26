@@ -8,7 +8,7 @@ function App() {
     <div className="flex items-center justify-center">
       {pathname !== import.meta.env.BASE_URL ? (
         <div className="flex w-dvw flex-col items-center justify-center">
-          <Link to={import.meta.env.BASE_URL} className="my-2 text-8xl">
+          <Link to={import.meta.env.BASE_URL} className="my-2 text-3xl">
             Index
           </Link>
           {/* const routes = [{ path: "/", Component: lazy(() => import("@/pages/jotai")) }] */}
@@ -17,7 +17,7 @@ function App() {
           {/* </Suspense> */}
         </div>
       ) : (
-        <ul className="flex h-dvh w-dvw flex-col items-center justify-center gap-12 text-8xl">
+        <ul className="flex h-dvh w-dvw flex-col items-center justify-center gap-12 text-5xl">
           {routes.map(
             (route) =>
               route.path && (

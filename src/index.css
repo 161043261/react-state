@@ -1,6 +1,11 @@
 @import "tailwindcss";
 
 @theme {
-  --font-display:
-    "Iosevka", "Maple Mono", Cascadia Code, Menlo, Monaco, Ubuntu Mono;
+  --font-sans: Iosevka, "Maple Mono", Cascadia Code, Menlo, Monaco, Ubuntu Mono;
+  --font-serif: var(--font-sans);
+  --font-mono: var(--font-sans);
+}
+
+:root {
+  font-family: var(--font-sans);
 }
